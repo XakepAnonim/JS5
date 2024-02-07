@@ -1,0 +1,104 @@
+/*Редактирование TD по клику*/
+th {
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    width: 150px;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.nw {
+    background-color: #999;
+}
+
+.n {
+    background-color: #03f;
+    color: #fff;
+}
+
+.ne {
+    background-color: #ff6;
+}
+
+.w {
+    background-color: #ff0;
+}
+
+.c {
+    background-color: #60c;
+    color: #fff;
+}
+
+.e {
+    background-color: #09f;
+    color: #fff;
+}
+
+.sw {
+    background-color: #963;
+    color: #fff;
+}
+
+.s {
+    background-color: #f60;
+    color: #fff;
+}
+
+.se {
+    background-color: #0c3;
+    color: #fff;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.ok {
+    background-color: #4caf50;
+    color: white;
+}
+
+button.cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+
+/*Депозитный калькулятор*/
+
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ea2d2d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
